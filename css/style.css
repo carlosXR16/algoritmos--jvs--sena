@@ -1,0 +1,45 @@
+body{
+    background-image:url(../img/fondo.jpg);
+    margin: 0px;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top:30px ;
+    padding-bottom: 65px;
+}
+
+
+#contenedor h1{
+color: rgb(0, 0, 0);
+font-size: 60px;
+font-family: Algerian;
+text-transform: uppercase ;
+
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: Cambria;
+    text-decoration-line: underline;
+
+}
+
+#contenedor button{
+    background: rgba(110, 3, 182, 0.603);
+    color: azure;
+    padding: 8px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .6s;
+    border:  5px outset rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* ESTILO DE TODOS LOS BOTONES EN ESTADO HOBER */
+
+#contenedor button:hover{
+    background: black;
+    padding: 8px 40px;
+    color: aliceblue;
+}
